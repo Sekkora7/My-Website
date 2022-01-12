@@ -1,0 +1,175 @@
+body {
+  font-family: 'Cormorant Garamond', serif;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  color: #105652;
+  font-family: 'Dancing Script', cursive;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  padding-top: 100px;
+
+}
+
+h2 {
+  color: #105652;
+  font-family: 'Cinzel', serif;
+  font-size: 2rem;
+  font-weight: normal;
+}
+
+h3 {
+  color: #565D47;
+  font-family: 'Cinzel', serif;
+}
+
+hr {
+  border-style: dotted none none;
+  border-width: 8px;
+  color: #B2AB8C;
+  width: 10%;
+}
+
+a {
+ margin: 10px 20px;
+ text-decoration: none;
+}
+
+a:hover {
+  color: #105652;
+}
+
+.top-container {
+  background-color: #558776;
+  padding-top: 100px;
+  position: relative;
+}
+
+.middle-container {
+  background-color: #A3A847;
+  padding-bottom: 100px;
+}
+
+.bottom-container {
+  background-color: #7F8B52;
+  padding: 50px 0 20px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.programmer {
+  padding-bottom: 100px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.mountain {
+  height: 248px;
+  width: 450px;
+  padding-bottom: 50px;
+}
+
+.profile-pic {
+  margin-top: 40px;
+  width: 15%;
+}
+
+.dice-pic {
+  background: #B2AB8C;
+  border-radius: 100%;
+  float: left;
+  margin-right: 30px;
+  width: 20%;
+}
+
+.social-pic {
+  background: #B2AB8C;
+  border-radius: 100%;
+  float: right;
+  margin-left: 30px;
+  width: 20%;
+}
+
+.hypnosis-pic {
+  border-radius: 100%;
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 50px;
+  width: 20%;
+}
+
+.hello-blurb {
+  line-height: 2;
+  margin-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+.web-blurb {
+  overflow: hidden;
+}
+
+.contact-blurb {
+  padding-top: 20px;
+}
+
+.skills {
+  margin-top: 100px;
+}
+
+.skill-row {
+  line-height: 2;
+  margin: 100px auto 150px;
+  text-align: left;
+  width: 40%;
+}
+
+.contact-me {
+  margin-top: 100px;
+}
+
+.btn {
+  -webkit-border-radius: 11;
+  -moz-border-radius: 11;
+  border-radius: 11px;
+  font-family: Cinzel;
+  color: #105652;
+  font-size: 20px;
+  background: #7F8B52;
+  padding: 10px 30px 10px 30px;
+  border: solid #B2AB8C 2px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #558776;
+  text-decoration: none;
+}
+
+.btn-box {
+  padding-top: 50px;
+}
+
+.footer-link {
+  color: #565D47;
+  font-size: 1.4rem;
+}
+
+.copyright {
+  font-size: 1.2rem;
+}
