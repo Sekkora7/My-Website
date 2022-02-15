@@ -1,11 +1,15 @@
+/* Entire Doc Element Changes */
+html, body {
+  height: 100%;
+}
+
 body {
   font-family: 'Cormorant Garamond', serif;
-  margin: 0;
   text-align: center;
 }
 
 h1 {
-  color: #105652;
+  color: #7897AB;
   font-family: 'Dancing Script', cursive;
   font-size: 5.625rem;
   margin: 50px auto 0 auto;
@@ -14,10 +18,11 @@ h1 {
 }
 
 h2 {
-  color: #105652;
+  color: #7897AB;
   font-family: 'Cinzel', serif;
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: normal;
+  text-align: center;
 }
 
 h3 {
@@ -28,14 +33,19 @@ h3 {
 
 p {
   color: #4A403A;
+  font-family: 'Cormorant Garamond', serif;
   font-size: 1.3rem;
 }
 
 hr {
-  border-style: dotted none none;
-  border-width: 8px;
-  color: #B2AB8C;
-  width: 10%;
+  border-top: 1px solid #eee;
+  border-color: #727878;
+  opacity: 0.2;
+  width: 60%;
+}
+
+td {
+  font-size: 1.3rem;
 }
 
 a {
@@ -47,52 +57,133 @@ a:hover {
   color: #105652;
 }
 
-.top-container {
-  background-color: #558776;
-  padding-top: 100px;
-  position: relative;
+/* Containers */
+
+.parallax-container {
+  background-color: #041C32;
+  height: auto;
+}
+.parallax {
+  background-attachment: fixed;
+  background-image: url("../images/starryNight.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
 }
 
-.middle-container {
-  background-color: #9DAB86;
-  padding-bottom: 100px;
-}
-
-.bottom-container {
-  background-color: #558776;
-  padding: 50px 0 20px;
-}
-
-.pro {
-  text-decoration: underline;
-}
-
-.programmer {
-  padding-bottom: 100px;
-}
-
-.bottom-cloud {
-  position: absolute;
-  left: 300px;
-  bottom: 300px;
-}
-
-.top-cloud {
-  position: absolute;
-  right: 300px;
-  top: 50px;
-}
-
-.mountain {
-  height: 248px;
-  width: 450px;
+.profile-container {
+  background-color: #D9D7F1;
   padding-bottom: 50px;
 }
 
+.project-container {
+  background-color: #2D4263;
+  padding-bottom: 100px;
+}
+
+.project-container p {
+  color: #D9D7F1;
+}
+
+.contact-container {
+  background-color: #D9D7F1;
+  padding: 50px 0 150px;
+}
+
+.bottom-container {
+  background-color: #2D4263;
+  padding: 50px 0 20px;
+}
+
+/* Parallex Container Items */
+
+.intro {
+  top: 400px;
+  left: 43%;
+  position: absolute;
+}
+
+.programmer {
+  top: 700px;
+  left: 37%;
+  position: absolute;
+}
+
+.starry-night {
+  height: 100%;
+  width: 100%;
+}
+
+/* Hello Section */
+
 .profile-pic {
-  margin-top: 40px;
+  margin: 0 auto 50px;
+  padding-top: 100px;
   width: 13%;
 }
+
+.hello-heading {
+  margin-bottom: 50px;
+}
+
+.hello-blurb {
+  line-height: 2;
+  margin: 50px auto 50px;
+  width: 30%;
+}
+
+.partTwo {
+  margin-bottom: 50px;
+}
+
+/* Skills Table */
+
+.skills-table-healding {
+  margin-top: 200px;
+}
+
+.skills-table {
+  margin: 100px auto;
+}
+
+.fas {
+  color: #B2AB8C;
+}
+
+.unfilled {
+  color: #ffff;
+}
+
+.no-bullets {
+  list-style-type: none;
+}
+
+/* Project Container Objects */
+
+.projects-heading {
+  color: #7897AB;
+}
+
+.projects {
+  padding-top: 70px;
+}
+
+.dl-screenshot {
+  padding-top: 50px;
+}
+
+.tinDog-screenshot {
+  padding-top: 100px;
+  width: 50%;
+}
+
+.dice-screenshot {
+  padding-top: 100px;
+  width: 50%;
+}
+
+/* Contact Container Items */
 
 .dice-pic {
   background: #B2AB8C;
@@ -118,31 +209,24 @@ a:hover {
   width: 20%;
 }
 
-.hello-blurb {
-  line-height: 2;
-  margin-bottom: 100px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 30%;
-}
-
 .web-blurb {
   overflow: hidden;
 }
 
 .hypnotist-blurb {
   overflow: hidden;
+  padding-bottom: 50px;
 }
 
 .contact-blurb {
   padding-top: 20px;
 }
 
-.skills {
+.background-container {
   margin-top: 100px;
 }
 
-.skill-row {
+.background-row {
   line-height: 2;
   margin: 100px auto 150px;
   text-align: left;
@@ -158,16 +242,17 @@ a:hover {
   -moz-border-radius: 11;
   border-radius: 11px;
   font-family: Cinzel;
-  color: #105652;
+  color: #D9D7F1;
   font-size: 20px;
-  background: #558776;
+  background: #7897AB;
   padding: 10px 30px 10px 30px;
-  border: solid #565D47 2px;
+  border: solid #2D4263 2px;
   text-decoration: none;
 }
 
 .btn:hover {
-  background: #B2AB8C;
+  background: #2D4263;
+  color: #D9D7F1;
   text-decoration: none;
 }
 
@@ -176,10 +261,12 @@ a:hover {
 }
 
 .footer-link {
-  color: #565D47;
+  color: #D9D7F1;
   font-size: 1.4rem;
 }
 
 .copyright {
+  color: #D9D7F1;
   font-size: 1.2rem;
 }
+
